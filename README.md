@@ -1,7 +1,5 @@
 
 # High-Throughput Credit Risk & Loan Default Processing Pipeline
-
-# High-Throughput Credit Risk & Loan Default Processing Pipeline
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-v1.2+-orange.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Imbalanced-Learn](https://img.shields.io/badge/Imbalanced--Learn-SMOTE--NC-yellowgreen.svg)](https://imbalanced-learn.org/)
