@@ -16,9 +16,9 @@ The architecture focuses on structural idempotency, data consistency, and robust
  ┌──────────────────────┐      ┌────────────────────────────────────────────────────────┐
  │      DATA INPUT      │      │             PREPROCESSING & ETL PIPELINE               │
  │                      │      │                                                        │
- │  Raw Credit Ledger   │ ───> │  1. Stratified Splitting (Train/Val/Test Isolation)   │
+ │  Raw Credit Ledger   │ ───> │  1. Stratified Splitting (Train/Val/Test Isolation)    │
  │   (21k+ Loan Rows)   │      │  2. Deterministic Imputation (Median / Most Frequent)  │
- └──────────────────────┘      │  3. Standardized Feature Scaling & One-Hot Encoding   │
+ └──────────────────────┘      │  3. Standardized Feature Scaling & One-Hot Encoding    │
                                └────────────────────────────────────────────────────────┘
                                                            │
                                                            ▼
